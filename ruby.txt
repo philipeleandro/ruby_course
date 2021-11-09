@@ -1,0 +1,16 @@
+duck type
+dynamic type
+
+ruby mine
+
+to ask edimo for help to install ruby on vscode
+
+
+recap
+
+- variables are named by snake_case and not CamelCase
+- variable are atributed with =
+- nil means that object are null value
+- methods are defined by def and return the result of the last expression
+- ruby has familiar operators and control structures 
+- comments with #
