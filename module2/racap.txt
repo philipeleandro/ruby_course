@@ -1,4 +1,4 @@
 objects and CLASSES
 variables and methods in CLASSES
 inheritance and method visibility
-self, open classes, monkey patching and object equality
+self, open classes, monkey patching and object equality.
