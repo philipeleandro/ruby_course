@@ -1,0 +1,56 @@
+IF
+	if can_launch?
+	  launch
+	else 
+	  wait
+	end
+
+UNLESS
+	unless fuel_level < 25
+	  launch
+	end
+
+CASE
+	case distance_to_dock
+	when "far away"
+	  lander.maintain_thrust
+	when "coasting time"
+	  lander.kill_thrust
+	when "collision imminent"
+	  lander.reverse_thrust
+	end
+
+case distance_to_dock
+	when "far away"
+	  lander.maintain_thrust
+	when "coasting time"
+	  lander.kill_thrust
+	when "collision imminent"
+	  lander.reverse_thrust
+	end
+
+case distance_to_dock
+	when "far away"
+	  lander.maintain_thrust
+	when "coasting time"
+	  lander.kill_thrust
+	else  # give you a chance to return some value, because without it, it'll return a nill value.
+	  activate_alarm("unidentified")
+	end
+
+WHILE
+ 
+	while high_alert?
+	  sound_system.play_siren_cycle
+	end
+
+UNTIL
+ 
+	until ship.at_cruising_velocity?
+	  ship.accelerate
+	end
+
+FOR
+	for i in [1,2,3]
+	  puts i
+	end

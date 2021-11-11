@@ -1,0 +1,5 @@
+handling exceptions
+exception class
+raise hatcherror
+rescue systemcallerror
+ensure
