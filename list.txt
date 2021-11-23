@@ -1,0 +1,6 @@
+teclado
+mouse
+tela 
+processador
+memoria ram
+gabinete
